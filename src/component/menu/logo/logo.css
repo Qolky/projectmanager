@@ -1,0 +1,14 @@
+.MenuLogo{
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.MenuLogoSpan{
+    font-family: Tahoma;
+    font-size: 36px;
+    color: grey;
+}

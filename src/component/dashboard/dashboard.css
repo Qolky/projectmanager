@@ -1,0 +1,13 @@
+.DashboardBody{
+    grid-area: body;
+
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-gap: 15px;
+
+    grid-template-areas:
+    "notification team task"
+    "project timesheet knowledge";
+}

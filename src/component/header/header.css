@@ -1,0 +1,18 @@
+.Header{
+    position: relative;
+
+    grid-area: header;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: white;
+
+    width: 95%;
+    height: 7vh;
+
+    border-radius: 15px;
+
+    margin-top: 15px;
+}

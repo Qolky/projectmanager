@@ -1,0 +1,44 @@
+.TaskStructure{
+    width: 100%;
+    height: 40px;
+
+    background-color: white;
+}
+
+.TaskStructureTable{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TaskStructure th {
+    height: 40px;
+    text-align: left;
+
+    border: 1px solid #ddd;
+    padding: 0px 8px;
+
+    font-size: 18px;
+    color: #5A5C62;
+    font-weight: bold;
+}
+
+.TaskStructure th:nth-child(1){
+    width: 10%;
+    text-align: right;
+}
+.TaskStructure th:nth-child(2){
+    width: 30%;
+}
+.TaskStructure th:nth-child(3){
+    width: 20%;
+}
+.TaskStructure th:nth-child(4){
+    width: 20%;
+}
+.TaskStructure th:nth-child(5){
+    width: 20%;
+}
+.TaskStructure th:nth-child(6){
+    width: 20%;
+}
